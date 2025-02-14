@@ -1,0 +1,19 @@
+@model Product
+@section Header {
+
+This space header only for "Get"
+
+}
+
+<h3>@Model.ProductName</h3>
+<h5>@Model.ProductPrice</h5>
+<div class="btn-group">
+
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Index">
+        <i class="fa-solid fa-house"></i>Home</a> 
+
+
+    <a class="btn btn-outline-primary" asp-controller="Product" asp-action="Index">
+        <i class="fa-solid fa-list"></i>Products</a>
+
+</div>

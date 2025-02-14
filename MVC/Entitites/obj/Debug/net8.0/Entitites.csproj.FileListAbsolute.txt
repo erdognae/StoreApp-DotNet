@@ -1,0 +1,11 @@
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\bin\Debug\net8.0\Entitites.deps.json
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\bin\Debug\net8.0\Entitites.dll
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\bin\Debug\net8.0\Entitites.pdb
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.AssemblyInfoInputs.cache
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.AssemblyInfo.cs
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.csproj.CoreCompileInputs.cache
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.dll
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\refint\Entitites.dll
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.pdb
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\ref\Entitites.dll

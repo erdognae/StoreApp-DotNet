@@ -1,0 +1,51 @@
+@model ProductDtoForUpdate
+
+<div class="text-center">
+
+    <div class="display-6">Create</div>
+</div>
+
+
+<form method="post" asp-action="Update">
+
+
+    <input type="hidden" asp-for="ProdcutId"/>
+
+    <div class="text-danger" asp-validation-summary="All"> </div> <!-- Hata mesajları gösterilir -->
+
+     <div>
+        <div class="form-group">
+            <label asp-for="ProductName"></label>
+            <input type="text" asp-for="ProductName" class="form-control" > 
+        </div>
+
+
+        <div class="form-group my-3">
+            <label asp-for="ProductPrice"></label>
+            <input type="number" asp-for="ProductPrice" class="form-control">
+        </div>
+
+        
+        <div class="form-group">
+            <label asp-for="CategoryId"></label> <!-- ViewBag kullanımı-->
+            <select class="form-control" asp-for="CategoryId" asp-items="@ViewBag.Categories"> </select>
+        </div>
+
+
+        <div class="form-group my-3">
+            <div class="btn-group">
+                <button class="btn btn-primary" type="submit">
+                    <i class="fa fa-save"></i> Update
+                </button>
+
+                <a asp-action="Index" class="btn btn-outline-primary"></button>
+                    <i class="fa fa-list"></i> Product
+                </a>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</form>
