@@ -53,11 +53,17 @@ namespace StoreApp.Migrations
                     b.Property<int?>("CategoryId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("ProductPrice")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Summary")
                         .HasColumnType("TEXT");
 
                     b.HasKey("ProdcutId");
@@ -71,50 +77,64 @@ namespace StoreApp.Migrations
                         {
                             ProdcutId = 1,
                             CategoryId = 2,
+                            ImageUrl = "/images/1.jpg",
                             ProductName = "HP Laptop",
-                            ProductPrice = 22000m
+                            ProductPrice = 22000m,
+                            Summary = ""
                         },
                         new
                         {
                             ProdcutId = 2,
                             CategoryId = 2,
+                            ImageUrl = "/images/2.jpg",
                             ProductName = "PS5",
-                            ProductPrice = 36000m
+                            ProductPrice = 36000m,
+                            Summary = ""
                         },
                         new
                         {
                             ProdcutId = 3,
                             CategoryId = 2,
+                            ImageUrl = "/images/3.jpg",
                             ProductName = "Gaming Laptop",
-                            ProductPrice = 32000m
+                            ProductPrice = 32000m,
+                            Summary = ""
                         },
                         new
                         {
                             ProdcutId = 4,
                             CategoryId = 2,
+                            ImageUrl = "/images/4.jpg",
                             ProductName = "Mause",
-                            ProductPrice = 2200m
+                            ProductPrice = 2200m,
+                            Summary = ""
                         },
                         new
                         {
                             ProdcutId = 5,
                             CategoryId = 2,
+                            ImageUrl = "/images/5.jpg",
                             ProductName = "Keyboard",
-                            ProductPrice = 16000m
+                            ProductPrice = 16000m,
+                            Summary = ""
                         },
                         new
                         {
                             ProdcutId = 6,
                             CategoryId = 1,
+                            ImageUrl = "/images/6.jpg",
                             ProductName = "Ulusların Düşüşü",
-                            ProductPrice = 420m
+                            ProductPrice = 420m,
+                            Summary = ""
                         },
                         new
                         {
                             ProdcutId = 7,
                             CategoryId = 1,
+                            ImageUrl = "/images/7.jpg",
                             ProductName = "Sistem ve Network Mühendisliği",
-                            ProductPrice = 760m
+                            ProductPrice = 760m,
+                            Summary = ""
                         });
                 });
 

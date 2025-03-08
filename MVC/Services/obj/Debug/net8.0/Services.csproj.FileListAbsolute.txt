@@ -15,3 +15,4 @@ C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Services\obj\Debug\net8.0\refint\Servi
 C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Services\obj\Debug\net8.0\Services.pdb
 C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Services\obj\Debug\net8.0\ref\Services.dll
 C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Services\obj\Debug\net8.0\Services.sourcelink.json

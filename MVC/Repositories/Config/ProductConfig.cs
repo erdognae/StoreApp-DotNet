@@ -31,13 +31,13 @@ namespace Repositories.Config
 
            builder.HasData //Seed Data
            (
-                new Product { ProdcutId = 1,CategoryId=2, ProductName = "HP Laptop", ProductPrice = 22000 },
-                new Product { ProdcutId = 2,CategoryId=2, ProductName = "PS5", ProductPrice = 36000 },
-                new Product { ProdcutId = 3,CategoryId=2, ProductName = "Gaming Laptop", ProductPrice = 32000 },
-                new Product { ProdcutId = 4,CategoryId=2, ProductName = "Mause", ProductPrice = 2200 },
-                new Product { ProdcutId = 5,CategoryId=2, ProductName = "Keyboard", ProductPrice = 16000 },
-                new Product { ProdcutId = 6,CategoryId=1, ProductName = "Ulusların Düşüşü", ProductPrice = 420 },
-                new Product { ProdcutId = 7,CategoryId=1, ProductName = "Sistem ve Network Mühendisliği", ProductPrice = 760 }
+                new Product { ProdcutId = 1,CategoryId=2,ImageUrl="/images/1.jpg", ProductName = "HP Laptop", ProductPrice = 22000 },
+                new Product { ProdcutId = 2,CategoryId=2,ImageUrl="/images/2.jpg", ProductName = "PS5", ProductPrice = 36000 },
+                new Product { ProdcutId = 3,CategoryId=2,ImageUrl="/images/3.jpg", ProductName = "Gaming Laptop", ProductPrice = 32000 },
+                new Product { ProdcutId = 4,CategoryId=2,ImageUrl="/images/4.jpg", ProductName = "Mause", ProductPrice = 2200 },
+                new Product { ProdcutId = 5,CategoryId=2,ImageUrl="/images/5.jpg", ProductName = "Keyboard", ProductPrice = 16000 },
+                new Product { ProdcutId = 6,CategoryId=1,ImageUrl="/images/6.jpg", ProductName = "Ulusların Düşüşü", ProductPrice = 420 },
+                new Product { ProdcutId = 7,CategoryId=1,ImageUrl="/images/7.jpg", ProductName = "Sistem ve Network Mühendisliği", ProductPrice = 760 }
             );
 
 

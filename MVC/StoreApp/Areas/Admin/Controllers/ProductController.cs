@@ -38,12 +38,21 @@ namespace StoreApp.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([FromForm] ProductDtForInsertion productDto)
+        public async Task<IActionResult> Create([FromForm] ProductDtForInsertion productDto, IFormFile file)
         {
             if (ModelState.IsValid)
             {
-            _manager.ProductServices.CreateProduct(productDto);
-            return RedirectToAction("Index");
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", file.FileName);
+        
+                // Dosyayı asenkron olarak kaydetme
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+                productDto.ImageUrl= String.Concat("/images", file.FileName);
+
+                _manager.ProductServices.CreateProduct(productDto);
+                return RedirectToAction("Index");
             }
 
             

@@ -7,7 +7,7 @@
 namespace StoreApp.Migrations
 {
     /// <inheritdoc />
-    public partial class ikincimigrate : Migration
+    public partial class start : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -33,6 +33,8 @@ namespace StoreApp.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     ProductName = table.Column<string>(type: "TEXT", nullable: false),
                     ProductPrice = table.Column<decimal>(type: "TEXT", nullable: false),
+                    Summary = table.Column<string>(type: "TEXT", nullable: true),
+                    ImageUrl = table.Column<string>(type: "TEXT", nullable: true),
                     CategoryId = table.Column<int>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
@@ -56,16 +58,16 @@ namespace StoreApp.Migrations
 
             migrationBuilder.InsertData(
                 table: "Products",
-                columns: new[] { "ProdcutId", "CategoryId", "ProductName", "ProductPrice" },
+                columns: new[] { "ProdcutId", "CategoryId", "ImageUrl", "ProductName", "ProductPrice", "Summary" },
                 values: new object[,]
                 {
-                    { 1, 2, "HP Laptop", 22000m },
-                    { 2, 2, "PS5", 36000m },
-                    { 3, 2, "Gaming Laptop", 32000m },
-                    { 4, 2, "Mause", 2200m },
-                    { 5, 2, "Keyboard", 16000m },
-                    { 6, 1, "Ulusların Düşüşü", 420m },
-                    { 7, 1, "Sistem ve Network Mühendisliği", 760m }
+                    { 1, 2, "/images/1.jpg", "HP Laptop", 22000m, "" },
+                    { 2, 2, "/images/2.jpg", "PS5", 36000m, "" },
+                    { 3, 2, "/images/3.jpg", "Gaming Laptop", 32000m, "" },
+                    { 4, 2, "/images/4.jpg", "Mause", 2200m, "" },
+                    { 5, 2, "/images/5.jpg", "Keyboard", 16000m, "" },
+                    { 6, 1, "/images/6.jpg", "Ulusların Düşüşü", 420m, "" },
+                    { 7, 1, "/images/7.jpg", "Sistem ve Network Mühendisliği", 760m, "" }
                 });
 
             migrationBuilder.CreateIndex(

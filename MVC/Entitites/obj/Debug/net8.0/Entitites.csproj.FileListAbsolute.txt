@@ -9,3 +9,4 @@ C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.d
 C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\refint\Entitites.dll
 C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.pdb
 C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\ref\Entitites.dll
+C:\Users\ataka\Desktop\NOTLAR\ASP.NET\MVC\Entitites\obj\Debug\net8.0\Entitites.sourcelink.json
